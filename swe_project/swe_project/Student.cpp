@@ -8,8 +8,13 @@ Student::Student(string name, string email, string password)
 }
 
 void Student::regCourse(Course* course) {
-    courses.push_back(course);
-    course->updateNumOfRegs(course->getNumOfRegs() + 1);
+    if (courses.size() < 6) {
+        courses.push_back(course);
+        course->updateNumOfRegs(course->getNumOfRegs() + 1);
+    }
+    else {
+        cout << "you have the maximum amount of courses per semester\n";
+    }
 }
 
 void Student::showCourse() {
