@@ -9,7 +9,7 @@ Course::Course(string code, string name, int hours, int capacity) {
     this->capacity = capacity;
     this->numOfRegs = 0;
 }
-//wa
+
 Course::Course(string code, string name, int hours, int capacity, int reg) {
     this->code = code;
     this->name = name;
@@ -54,11 +54,10 @@ void Course::setCapacity(int capacity) {
     this->capacity = capacity;
 }
 
-void Course::updateNumOfRegs(int num) {
-    this->numOfRegs = num;
-}
-
 void Course::incrementRegister() {
     this->numOfRegs++;
 }
 
+void Course::decrementRegister() {
+    this->numOfRegs--;
+}
