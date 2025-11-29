@@ -10,15 +10,19 @@ private:
     int hours;
     int capacity;
     int numOfRegs;
+    bool avaliable;
 
 public:
     Course(string code,string name, int hours, int capacity);
+    //wa
+    Course(string code,string name, int hours, int capacity, int numOfRegs );
 
     string getCode();
     string getName();
     int getHours();
     int getCapacity();
     int getNumOfRegs();
+    bool IsAvaliable();
 
     void setName(string name);
     void setHours(int hours);

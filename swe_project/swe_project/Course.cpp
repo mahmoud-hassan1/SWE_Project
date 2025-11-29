@@ -7,7 +7,17 @@ Course::Course(string code, string name, int hours, int capacity) {
     this->name = name;
     this->hours = hours;
     this->capacity = capacity;
+    this->avaliable = true;
     this->numOfRegs = 0;
+}
+//wa
+Course::Course(string code, string name, int hours, int capacity, int reg) {
+    this->code = code;
+    this->name = name;
+    this->hours = hours;
+    this->capacity = capacity;
+    this->numOfRegs = reg;
+    this->avaliable = false;
 }
 
 string Course::getCode() {
@@ -28,6 +38,10 @@ int Course::getCapacity() {
 
 int Course::getNumOfRegs() {
     return numOfRegs;
+}
+
+bool Course::IsAvaliable() {
+    return avaliable;
 }
 
 void Course::setName(string name) {

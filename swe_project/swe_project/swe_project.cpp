@@ -8,6 +8,9 @@ using namespace std;
 #include "Course.h"
 #include "Account.h"
 
+//wa
+const int MAX_REG = 20;
+
 void clearInput() {
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -31,6 +34,8 @@ int main() {
     courses.push_back(new Course("CS101", "Intro to CS", 3, 50));
     courses.push_back(new Course("CS102", "Data Structures", 4, 40));
     courses.push_back(new Course("CS103", "Algorithms", 4, 35));
+    //wa
+    courses.push_back(new Course("CS104", "UML", 4, 35,MAX_REG));
 
     cout << "=============================\n";
     cout << "  COURSE REGISTRATION SYSTEM \n";
@@ -153,14 +158,16 @@ int main() {
 
                     else if (c == 4) {
                         // SHOW ALL COURSES
-                        cout << "\n=== Available Courses ===\n";
+                        cout << "\n=== All Courses ===\n";
                         for (auto c : courses) {
                             cout << c->getCode() << " | "
                                 << c->getName() << " | "
                                 << c->getHours() << "h | Cap: "
                                 << c->getCapacity() << " | Regs: "
-                                << c->getNumOfRegs() << "\n";
+                                << c->getNumOfRegs() << " | avaliable: "
+                                << boolalpha <<c->IsAvaliable() << "\n";
                         }
+
                     }
 
                     else if (c == 5)
@@ -183,7 +190,7 @@ int main() {
                 cout << "\n=== Logged in as STUDENT ===\n";
 
                 while (true) {
-                    cout << "\n1. Register Course\n2. Drop Course\n3. Show My Courses\n4. Show All Courses\n5. Logout\nChoose: ";
+                    cout << "\n1. Register Course\n2. Drop Course\n3. Show My Courses\n4. Show Avaliable Courses\n5. Logout\nChoose: ";
                     int c;
                     cin >> c;
 
@@ -246,11 +253,13 @@ int main() {
                     else if (c == 4) {
                         cout << "\n=== Available Courses ===\n";
                         for (auto c : courses) {
-                            cout << c->getCode() << " | "
-                                << c->getName() << " | "
-                                << c->getHours() << " hours | Capacity: "
-                                << c->getCapacity() << " | Regs: "
-                                << c->getNumOfRegs() << "\n";
+                            if (c->IsAvaliable()) {
+                                cout << c->getCode() << " | "
+                                    << c->getName() << " | "
+                                    << c->getHours() << " hours | Capacity: "
+                                    << c->getCapacity() << " | Regs: "
+                                    << c->getNumOfRegs() << "\n";
+                            }
                         }
                     }
 
