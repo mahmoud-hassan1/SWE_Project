@@ -1,6 +1,6 @@
 #ifndef ADMIN_H
 #define ADMIN_H
-
+#include<vector>
 #include "Account.h"
 #include "Course.h"
 using namespace std;
@@ -9,7 +9,7 @@ public:
     Admin(string name,string email, string password);
 
     Course* createCourse(string code, string name, int hours, int capacity);
-    void deleteCourse(Course* course);
+    bool deleteCourse(vector<Course*>& courses, const string& code);
     void editCourse(Course* course, string name, int hours, int capacity);
 };
 

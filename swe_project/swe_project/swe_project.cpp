@@ -161,17 +161,14 @@ void adminMenu(Admin& admin, vector<Course*>& courses) {
 
         else if (c == 3) {
             string code;
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Enter course code to delete: ";
-            cin >> code;
+            getline(cin, code);
 
-            for (int i = 0; i < courses.size(); i++) {
-                if (courses[i]->getCode() == code) {
-                    admin.deleteCourse(courses[i]);
-                    courses.erase(courses.begin() + i);
-                    printSuccess("Course deleted!");
-                    break;
-                }
-            }
+            if (admin.deleteCourse(courses, code))
+                printSuccess("Course deleted!");
+            else
+                printError("Course not found!");
         }
 
         else if (c == 4) {

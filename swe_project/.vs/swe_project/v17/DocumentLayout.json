@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\swe_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Course.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Course.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,21 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.h",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.h",
-              "RelativeDocumentMoniker": "swe_project\\Student.h",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.h",
-              "RelativeToolTip": "swe_project\\Student.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-29T15:46:15.867Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -71,59 +70,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Account.h",
+              "RelativeDocumentMoniker": "swe_project\\Account.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Account.h",
+              "RelativeToolTip": "swe_project\\Account.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-29T16:26:46.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.h",
+              "RelativeDocumentMoniker": "swe_project\\Admin.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.h",
+              "RelativeToolTip": "swe_project\\Admin.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-29T16:25:37.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Course.h",
+              "RelativeDocumentMoniker": "swe_project\\Course.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Course.h",
+              "RelativeToolTip": "swe_project\\Course.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-29T16:25:20.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.h",
+              "RelativeDocumentMoniker": "swe_project\\Student.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.h",
+              "RelativeToolTip": "swe_project\\Student.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-29T15:46:15.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "swe_project.cpp",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\swe_project.cpp",
               "RelativeDocumentMoniker": "swe_project\\swe_project.cpp",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\swe_project.cpp",
               "RelativeToolTip": "swe_project\\swe_project.cpp",
-              "ViewState": "AQIAADoBAAAAAAAAAAAAAEQBAAAAAAAA",
+              "ViewState": "AQIAACMBAAAAAAAAAAAAADcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-29T15:15:11.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Student.cpp",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.cpp",
               "RelativeDocumentMoniker": "swe_project\\Student.cpp",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Student.cpp",
               "RelativeToolTip": "swe_project\\Student.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-29T15:15:10.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Course.cpp",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Course.cpp",
               "RelativeDocumentMoniker": "swe_project\\Course.cpp",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Course.cpp",
               "RelativeToolTip": "swe_project\\Course.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-29T15:15:08.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Admin.cpp",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.cpp",
               "RelativeDocumentMoniker": "swe_project\\Admin.cpp",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Admin.cpp",
               "RelativeToolTip": "swe_project\\Admin.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwA8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-29T15:15:07.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Account.cpp",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\ITI\\SWE\\Project\\SWE_Project\\swe_project\\swe_project\\Account.cpp",
               "RelativeDocumentMoniker": "swe_project\\Account.cpp",
@@ -131,8 +182,7 @@
               "RelativeToolTip": "swe_project\\Account.cpp",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-29T15:15:03.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T15:15:03.194Z"
             }
           ]
         }
