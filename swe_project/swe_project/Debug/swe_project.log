@@ -1,7 +1,12 @@
-﻿  Admin.cpp
+﻿  Account.cpp
+  Admin.cpp
+D:\iti\projects\SWE\SWE_Project\swe_project\swe_project\Admin.cpp(14,23): warning C4018: '<': signed/unsigned mismatch
+  Course.cpp
+  Student.cpp
+D:\iti\projects\SWE\SWE_Project\swe_project\swe_project\Student.cpp(18,23): warning C4018: '<': signed/unsigned mismatch
+D:\iti\projects\SWE\SWE_Project\swe_project\swe_project\Student.cpp(25,23): warning C4018: '<': signed/unsigned mismatch
   swe_project.cpp
-C:\Users\Lenovo\Documents\ITI\SWE\Project\SWE_Project\swe_project\swe_project\Admin.cpp(14,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Lenovo\Documents\ITI\SWE\Project\SWE_Project\swe_project\swe_project\swe_project.cpp(47,22): warning C4566: character represented by universal-character-name '\u2714' cannot be represented in the current code page (1252)
-C:\Users\Lenovo\Documents\ITI\SWE\Project\SWE_Project\swe_project\swe_project\swe_project.cpp(51,20): warning C4566: character represented by universal-character-name '\u2718' cannot be represented in the current code page (1252)
+D:\iti\projects\SWE\SWE_Project\swe_project\swe_project\swe_project.cpp(47,22): warning C4566: character represented by universal-character-name '\u2714' cannot be represented in the current code page (1252)
+D:\iti\projects\SWE\SWE_Project\swe_project\swe_project\swe_project.cpp(51,20): warning C4566: character represented by universal-character-name '\u2718' cannot be represented in the current code page (1252)
   Generating Code...
-  swe_project.vcxproj -> C:\Users\Lenovo\Documents\ITI\SWE\Project\SWE_Project\swe_project\Debug\swe_project.exe
+  swe_project.vcxproj -> D:\iti\projects\SWE\SWE_Project\swe_project\Debug\swe_project.exe
