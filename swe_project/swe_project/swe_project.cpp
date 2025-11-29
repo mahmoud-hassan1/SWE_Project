@@ -8,9 +8,6 @@ using namespace std;
 #include "Course.h"
 #include "Account.h"
 
-//wa
-const int MAX_REG = 20;
-
 void clearInput() {
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -35,7 +32,8 @@ int main() {
     courses.push_back(new Course("CS102", "Data Structures", 4, 40));
     courses.push_back(new Course("CS103", "Algorithms", 4, 35));
     //wa
-    courses.push_back(new Course("CS104", "UML", 4, 35,MAX_REG));
+    courses.push_back(new Course("CS104", "UML", 4, 35,35));
+    courses.push_back(new Course("CS108", "OS", 4, 1));
 
     cout << "=============================\n";
     cout << "  COURSE REGISTRATION SYSTEM \n";
@@ -160,6 +158,7 @@ int main() {
                         // SHOW ALL COURSES
                         cout << "\n=== All Courses ===\n";
                         for (auto c : courses) {
+
                             cout << c->getCode() << " | "
                                 << c->getName() << " | "
                                 << c->getHours() << "h | Cap: "
@@ -208,13 +207,21 @@ int main() {
                             cout << "Course not found!\n";
                             continue;
                         }
+
+                        if (!target->IsAvaliable()) {
+                            cout << "The capacity doesn’t allow you to register for this course.\n";
+                            continue;
+                        }
+
                         auto studcourses = logged->getCourses();
                         bool flag = false;
                         for (auto c : studcourses)
                         {
                             if (code == c->getCode())
                             {
+                              
                                 flag = true;
+                                c->incrementRegister();
                                 break;
                             }
                         }
@@ -253,6 +260,7 @@ int main() {
                     else if (c == 4) {
                         cout << "\n=== Available Courses ===\n";
                         for (auto c : courses) {
+                      
                             if (c->IsAvaliable()) {
                                 cout << c->getCode() << " | "
                                     << c->getName() << " | "

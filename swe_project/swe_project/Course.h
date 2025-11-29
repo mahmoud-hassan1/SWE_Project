@@ -28,6 +28,7 @@ public:
     void setHours(int hours);
     void setCapacity(int capacity);
     void updateNumOfRegs(int num);
+    void incrementRegister();
 };
 
 #endif

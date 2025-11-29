@@ -1,5 +1,5 @@
 #include "Course.h"
-
+#include<iostream>
 using namespace std;
 
 Course::Course(string code, string name, int hours, int capacity) {
@@ -7,7 +7,7 @@ Course::Course(string code, string name, int hours, int capacity) {
     this->name = name;
     this->hours = hours;
     this->capacity = capacity;
-    this->avaliable = true;
+    //this->avaliable = true;
     this->numOfRegs = 0;
 }
 //wa
@@ -17,7 +17,7 @@ Course::Course(string code, string name, int hours, int capacity, int reg) {
     this->hours = hours;
     this->capacity = capacity;
     this->numOfRegs = reg;
-    this->avaliable = false;
+    //this->avaliable = false;
 }
 
 string Course::getCode() {
@@ -41,7 +41,7 @@ int Course::getNumOfRegs() {
 }
 
 bool Course::IsAvaliable() {
-    return avaliable;
+    return this->capacity != this->numOfRegs;
 }
 
 void Course::setName(string name) {
@@ -58,4 +58,8 @@ void Course::setCapacity(int capacity) {
 
 void Course::updateNumOfRegs(int num) {
     this->numOfRegs = num;
+}
+
+void Course::incrementRegister() {
+    this->numOfRegs++;
 }
