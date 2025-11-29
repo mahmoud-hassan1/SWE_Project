@@ -10,7 +10,6 @@ private:
     int hours;
     int capacity;
     int numOfRegs;
-    bool avaliable;
 
 public:
     Course(string code,string name, int hours, int capacity);
