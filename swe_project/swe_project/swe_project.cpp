@@ -12,6 +12,28 @@ void clearInput() {
   cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
 
+bool isValidEmail(const string &email) {
+  size_t atPos = email.find('@');
+  if (atPos == string::npos || atPos == 0 || atPos == email.length() - 1) {
+    return false;
+  }
+
+  size_t dotPos = email.find('.', atPos);
+  if (dotPos == string::npos || dotPos == atPos + 1 || dotPos == email.length() - 1) {
+    return false;
+  }
+
+  if (email.find(' ') != string::npos) {
+    return false;
+  }
+
+  if (email.find('@', atPos + 1) != string::npos) {
+    return false;
+  }
+
+  return true;
+}
+
 void line() { cout << "----------------------------------------\n"; }
 
 void printHeader(const string &title) {
@@ -53,6 +75,11 @@ void signUp(vector<Student *> &students) {
 
   cout << "Enter your email: ";
   getline(cin, email);
+
+  if (!isValidEmail(email)) {
+    printError("Invalid email format! Please use a valid email (e.g., user@example.com)");
+    return;
+  }
 
   cout << "Enter password: ";
   getline(cin, pass);
@@ -324,6 +351,11 @@ int main() {
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
       cout << "Email: ";
       getline(cin, email);
+
+      if (!isValidEmail(email)) {
+        printError("Invalid email format! Please use a valid email (e.g., user@example.com)");
+        continue;
+      }
 
       cout << "Password: ";
       getline(cin, pass);
