@@ -295,7 +295,7 @@ void studentMenu(Student* logged, vector<Course*>& courses) {
             for (auto c : courses) {
                 if (c->IsAvaliable()) {
                     cout << c->getCode() << " - " << c->getName()
-                        << " (Regs: " << c->getNumOfRegs() << ")\n";
+                        <<" (hours: "<<c->getHours()<<"\tCapacity: " << c->getCapacity() << "\tRegs: " << c->getNumOfRegs() << ")\n";
                 }
             }
         }

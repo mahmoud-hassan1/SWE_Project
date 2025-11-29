@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\swe_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\swe_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Account.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,24 +27,8 @@
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\swe_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\swe_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|solutionrelative:swe_project\\Account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA18AF6D-148A-499E-B61D-A3F898AD7909}|swe_project\\swe_project.vcxproj|D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Course.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,12 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -74,32 +70,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "swe_project.cpp",
               "DocumentMoniker": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\swe_project.cpp",
               "RelativeDocumentMoniker": "swe_project\\swe_project.cpp",
               "ToolTip": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\swe_project.cpp",
               "RelativeToolTip": "swe_project\\swe_project.cpp",
-              "ViewState": "AgIAAEQBAAAAAAAAAAAAAFcBAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAqwOEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-29T18:14:38.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Account.h",
               "DocumentMoniker": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Account.h",
               "RelativeDocumentMoniker": "swe_project\\Account.h",
               "ToolTip": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Account.h",
               "RelativeToolTip": "swe_project\\Account.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-29T18:14:38.481Z"
+              "WhenOpened": "2025-11-29T18:14:38.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Admin.h",
               "DocumentMoniker": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Admin.h",
               "RelativeDocumentMoniker": "swe_project\\Admin.h",
@@ -136,13 +133,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Student.cpp",
               "DocumentMoniker": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Student.cpp",
               "RelativeDocumentMoniker": "swe_project\\Student.cpp",
               "ToolTip": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Student.cpp",
               "RelativeToolTip": "swe_project\\Student.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-29T18:14:38.856Z",
               "EditorCaption": ""
@@ -161,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Admin.cpp",
               "DocumentMoniker": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Admin.cpp",
               "RelativeDocumentMoniker": "swe_project\\Admin.cpp",
@@ -169,12 +166,11 @@
               "RelativeToolTip": "swe_project\\Admin.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-29T18:14:38.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T18:14:38.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Account.cpp",
               "DocumentMoniker": "D:\\iti\\projects\\SWE\\SWE_Project\\swe_project\\swe_project\\Account.cpp",
               "RelativeDocumentMoniker": "swe_project\\Account.cpp",
