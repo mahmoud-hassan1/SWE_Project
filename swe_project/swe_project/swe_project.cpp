@@ -9,18 +9,6 @@ using namespace std;
 #include "Account.h"
 
 // ================================
-// ANSI COLORS
-// ================================
-#define RESET   "\033[0m"
-#define BOLD    "\033[1m"
-#define RED     "\033[31m"
-#define GREEN   "\033[32m"
-#define YELLOW  "\033[33m"
-#define BLUE    "\033[34m"
-#define CYAN    "\033[36m"
-#define MAGENTA "\033[35m"
-
-// ================================
 // UTILITY FUNCTIONS
 // ================================
 void clearInput() {
@@ -29,30 +17,28 @@ void clearInput() {
 }
 
 void line() {
-    cout << CYAN << "----------------------------------------" << RESET << "\n";
+    cout << "----------------------------------------\n";
 }
 
 // ================================
 // UI FUNCTIONS
 // ================================
 void printHeader(const string& title) {
-    cout << BLUE << BOLD
-        << "\n========================================\n"
+    cout << "\n========================================\n"
         << "         " << title << "\n"
-        << "========================================\n"
-        << RESET;
+        << "========================================\n";
 }
 
 void printSuccess(const string& msg) {
-    cout << GREEN << "[✔] " << msg << RESET << "\n";
+    cout << "[OK] " << msg << "\n";
 }
 
 void printError(const string& msg) {
-    cout << RED << "[✘] " << msg << RESET << "\n";
+    cout << "[ERROR] " << msg << "\n";
 }
 
 void printOption(int num, const string& text) {
-    cout << YELLOW << num << ". " << RESET << text << "\n";
+    cout << num << ". " << text << "\n";
 }
 
 // ================================
@@ -108,7 +94,7 @@ void adminMenu(Admin& admin, vector<Course*>& courses) {
         printOption(4, "Show All Courses");
         printOption(5, "Logout");
 
-        cout << CYAN << "Choose: " << RESET;
+        cout << "Choose: ";
         int c;
         cin >> c;
 
@@ -175,7 +161,7 @@ void adminMenu(Admin& admin, vector<Course*>& courses) {
             printHeader("ALL COURSES");
 
             for (auto c : courses) {
-                cout << CYAN << c->getCode() << RESET
+                cout << c->getCode()
                     << " | " << c->getName()
                     << " | " << c->getHours() << "h"
                     << " | Cap: " << c->getCapacity()
@@ -205,7 +191,7 @@ void studentMenu(Student* logged, vector<Course*>& courses) {
         printOption(4, "Show Available Courses");
         printOption(5, "Logout");
 
-        cout << CYAN << "Choose: " << RESET;
+        cout << "Choose: ";
         int c;
         cin >> c;
 
@@ -334,7 +320,7 @@ int main()
         printOption(2, "Login");
         printOption(3, "Exit");
 
-        cout << CYAN << "Choose: " << RESET;
+        cout << "Choose: ";
         int choice;
         cin >> choice;
 
