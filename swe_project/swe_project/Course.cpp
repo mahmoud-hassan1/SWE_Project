@@ -63,3 +63,4 @@ void Course::updateNumOfRegs(int num) {
 void Course::incrementRegister() {
     this->numOfRegs++;
 }
+
